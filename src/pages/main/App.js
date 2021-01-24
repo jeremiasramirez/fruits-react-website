@@ -1,9 +1,11 @@
+import Navbar from '../../components/navbar/navbar.component';
 import './App.css';
 
 const MainApp =()=> {
-  return <section>
+  return <>
+    <Navbar />
 
-  </section>
+  </>
 }
 
 export default MainApp;
