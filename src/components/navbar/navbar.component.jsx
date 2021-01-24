@@ -6,7 +6,7 @@ const Navbar = ()=>{
     
     return <section className="navbar">
 
-        <article className="menu__bar">
+        <article className="menu__bar animateScale">
             <li className="selected">Home</li>
             <li>About US</li>
             <li>Services</li>
