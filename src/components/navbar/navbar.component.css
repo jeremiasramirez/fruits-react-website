@@ -2,8 +2,23 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
+    margin: 50px 20px;
 }
 
-.menu__bar{
-     
+.menu__bar {
+     display: flex;
+     justify-content: space-around;
+}
+
+.menu__bar li{
+    margin: 10px;
+    color:white;
+    cursor:pointer;
+    font-size:19px;
+    font-family: arial;
+    list-style: none;
+} 
+
+.selected{
+    color: rgb(248, 178, 47) !important;
 }
