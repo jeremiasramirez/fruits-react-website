@@ -4,6 +4,8 @@
     align-items: center;
     flex-wrap: wrap;
     margin-top:70px;
+ 
+ 
 }
 
 .info__title{
@@ -26,8 +28,7 @@
 }
 
 .imageBody{
-     
-    width: 400px;
+    width: 600px;
 }
 .description{
     word-spacing: 2px;
