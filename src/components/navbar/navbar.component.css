@@ -3,15 +3,46 @@
     justify-content: space-between;
     align-items: center;
     margin: 50px 20px;
+    flex-wrap: wrap;
 }
-
+.menu__searchbar input{
+    border-radius: 20px;
+    padding: 10px;
+    border:none;
+    background-color: rgb(65, 65, 78);
+    color:white;
+    font-weight: 500;
+    font-size:15px;
+  }
 .menu__bar {
      display: flex;
      justify-content: space-around;
+     align-items: center;
+     flex-wrap:wrap
 }
-
+@media screen and (max-width: 700px){
+    .menu__bar{
+        width: 100%;
+        overflow-x: hidden !important;
+    }
+    .menu__bar li{
+        text-align: center; 
+        border-bottom: 1px solid rgb(52, 52, 77);
+        width: 100%;
+        padding-bottom:10px;
+    }
+    .menu__searchbar input{
+        margin-top:15px; 
+        width: 320px;
+    }
+    .navbar{
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0px 5px 10px rgb(53, 53, 66);
+    }
+}
 .menu__bar li{
-    margin: 10px;
+    margin: 10px 25px;
     color:white;
     cursor:pointer;
     font-size:19px;
