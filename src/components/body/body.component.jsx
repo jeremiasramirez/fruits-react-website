@@ -42,9 +42,11 @@ const BodyComponent = ()=>{
         {
             InfoComponent()
         }
+
         {
             ImageComponent()
         }
+        
 
 
     </section>
