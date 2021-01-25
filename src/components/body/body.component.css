@@ -1,3 +1,60 @@
 .body__container{
-    
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:70px;
 }
+
+.info__title{
+    font-size:28px; 
+    font-family: ubuntu;
+    margin:15px 8px;
+    color:rgb(145, 124, 34);
+    font-style: italic;
+}
+
+.info__subtitle{
+    margin:5px;
+    color:rgb(211, 183, 61);
+    font-size:40px; 
+    font-family: ubuntu;
+    font-style: italic;
+}
+.item{
+    padding-left:40px; 
+}
+
+.imageBody{
+     
+    width: 300px;
+}
+.description{
+    word-spacing: 2px;
+    font-size: 22px;
+    letter-spacing: .5px;
+    width: 315px;
+    /* font-weight: 400; */
+    margin-top:30px;
+    color:white;
+    font-family: arial;
+    line-height: 22px;
+}
+
+.read{
+    font-style: italic;
+    color:orange;
+    margin-top:10px;
+    font-family: sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+

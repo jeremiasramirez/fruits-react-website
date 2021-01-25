@@ -33,7 +33,7 @@
     }
     .menu__searchbar input{
         margin-top:15px; 
-        width: 320px;
+        width: inherit;
     }
     .navbar{
         padding: 10px;
